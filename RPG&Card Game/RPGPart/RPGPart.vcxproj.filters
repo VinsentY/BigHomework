@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\角色">
+      <UniqueIdentifier>{e712442a-f239-4c11-a34e-93411ad58586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\地图">
+      <UniqueIdentifier>{0f6cc5ba-e179-40d7-b0c5-365e66a28b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\角色">
+      <UniqueIdentifier>{1f574fd0-3a97-45fe-9209-bbf03fd48203}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\地图">
+      <UniqueIdentifier>{fe4a4116-afc9-4a41-ace0-998367ba4db1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\依赖项">
+      <UniqueIdentifier>{72e486b3-f15a-4a63-93d7-e6f1f3723d0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\依赖项">
+      <UniqueIdentifier>{563d9b08-b0e4-443b-94a9-8a102a4bd9bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\卡牌">
+      <UniqueIdentifier>{250472c4-7863-42c4-bc21-7204b48b4ec5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\卡牌">
+      <UniqueIdentifier>{dba00bbc-1ea1-4d07-9ae2-b0246aa73bd3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>头文件\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>头文件\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="Card.h">
+      <Filter>头文件\角色</Filter>
+    </ClInclude>
+    <ClInclude Include="Monster.h">
+      <Filter>头文件\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="Seller.h">
+      <Filter>头文件\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>头文件\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="RPG.h">
+      <Filter>头文件\地图</Filter>
+    </ClInclude>
+    <ClInclude Include="CConsole.h">
+      <Filter>头文件\依赖项</Filter>
+    </ClInclude>
+    <ClInclude Include="CMusic.h">
+      <Filter>头文件\依赖项</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>头文件\卡牌</Filter>
+    </ClInclude>
+    <ClInclude Include="MAIN.h">
+      <Filter>头文件\卡牌</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RPG.cpp">
+      <Filter>源文件\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="Monster.cpp">
+      <Filter>源文件\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="Seller.cpp">
+      <Filter>源文件\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>源文件\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>源文件\角色</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>源文件\地图</Filter>
+    </ClCompile>
+    <ClCompile Include="CConsole.cpp">
+      <Filter>源文件\依赖项</Filter>
+    </ClCompile>
+    <ClCompile Include="CMusic.cpp">
+      <Filter>源文件\依赖项</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>源文件\卡牌</Filter>
+    </ClCompile>
+    <ClCompile Include="Card.cpp">
+      <Filter>源文件\角色</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
